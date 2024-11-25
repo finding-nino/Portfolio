@@ -1,0 +1,205 @@
+body{
+    background-color: rgb(26, 26, 26);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+
+}
+
+
+
+h1{
+    font-size: 8em;
+}
+
+#dis_container{
+    width:300px;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    
+#streep_dis{
+    background-color: whitesmoke;
+    width: 500px;
+    height: 1px;
+    position: absolute;
+    z-index: 1;
+
+
+}
+
+
+
+#boven_dis{
+    color:rgb(0, 153, 153);
+    clip-path:inset(0 0 50% 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 0;
+    animation-name: moveleft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+    
+}
+
+#onder_dis{
+    color:purple;
+    clip-path:inset(50% 0 0 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:0;
+    animation-name: moveright;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+
+}
+
+
+
+
+#con_container{
+    width:300px;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    
+#streep_con{
+    background-color: whitesmoke;
+    width: 500px;
+    height: 1px;
+    position: absolute;
+    z-index: 1;
+
+
+}
+
+
+
+#boven_con{
+    color:rgb(0, 153, 153);
+    clip-path:inset(0 0 50% 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 0;
+    animation-name: moveleft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+    
+}
+
+#onder_con{
+    color:purple;
+    clip-path:inset(50% 0 0 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:0;
+    animation-name: moveright;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+}
+
+
+
+#nect_container{
+    width:300px;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    
+#streep_nect{
+    background-color: whitesmoke;
+    width: 500px;
+    height: 1px;
+    position: absolute;
+    z-index: 1;
+
+
+}
+
+
+
+#boven_nect{
+    color:rgb(0, 153, 153);
+    clip-path:inset(0 0 50% 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 0;
+    animation-name: moveleft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+    
+}
+
+#onder_nect{
+    color:purple;
+    clip-path:inset(50% 0 0 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:0;
+    animation-name: moveright;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+}
+
+
+
+@keyframes moveleft {
+
+    0% { transform: translateX(100px); }
+    100% { transform: translateX(-100px); }
+
+    
+}
+
+@keyframes moveright {
+    0% { transform: translateX(-100px); }
+    100% { transform: translateX(100px); }
+
+}

@@ -1,0 +1,613 @@
+body{
+    background-color: grey;
+}
+
+.blok{
+    width: 40px;
+    height: 40px;
+}
+
+
+#blok1{
+    background-color: grey;
+}
+
+#blok2{
+    background-color: grey;
+}
+
+#blok3{
+    background-color: grey;
+}
+
+#blok4{
+    background-color: red;
+}
+
+#blok5{
+    background-color: red;
+}
+
+#blok6{
+    background-color: red;
+}
+
+#blok7{
+    background-color: red;
+}
+
+#blok8{
+    background-color: red;
+}
+
+#blok9{
+    background-color: red;
+}
+
+#blok10{
+    background-color: grey;
+}
+
+#blok11{
+    background-color:  grey;
+}
+
+#blok12{
+    background-color: red;
+}
+
+#blok13{
+    background-color: red;
+}
+
+#blok14{
+    background-color: red;
+}
+#blok15{
+    background-color: red;
+}
+#blok16{
+    background-color: red;
+}
+#blok17{
+    background-color: red;
+}
+#blok18{
+    background-color: red;
+}
+#blok19{
+    background-color: red;
+}
+#blok20{
+    background-color: red;
+}
+#blok21{
+    background-color: red;
+}
+#blok22{
+    background-color:  grey;
+}
+#blok23{
+    background-color:  grey;
+}
+#blok24{
+    background-color: rgb(100, 50, 0);
+}
+#blok25{
+    background-color: rgb(100, 50, 0);
+}
+#blok26{
+    background-color: rgb(100, 50, 0);
+}
+#blok27{
+    background-color: rgb(255, 200, 150);
+}
+#blok28{
+    background-color: rgb(255, 200, 150);
+}
+#blok29{
+    background-color: rgb(100, 50, 0);
+}
+#blok30{
+    background-color: rgb(255, 200, 150);
+}
+#blok31{
+    background-color:  grey;
+}
+#blok32{
+    background-color:rgb(100, 50, 0);
+}
+#blok33{
+    background-color: rgb(255, 200, 150);
+}
+#blok34{
+    background-color: rgb(100, 50, 0);
+}
+#blok35{
+    background-color: rgb(255, 200, 150);
+}
+#blok36{
+    background-color: rgb(255, 200, 150);
+}
+#blok37{
+    background-color: rgb(255, 200, 150);
+}
+#blok38{
+    background-color: rgb(100, 50, 0);
+}
+#blok39{
+    background-color: rgb(255, 200, 150);
+}
+#blok40{
+    background-color: rgb(255, 200, 150);
+}
+#blok41{
+    background-color: rgb(255, 200, 150);
+}
+
+#blok42{
+    background-color: grey;
+}
+#blok43{
+    background-color: rgb(100, 50, 0);
+}
+#blok44{
+    background-color: rgb(255, 200, 150);
+}
+#blok45{
+    background-color: rgb(100, 50, 0);
+}
+#blok46{
+    background-color: rgb(100, 50, 0);
+}
+#blok47{
+    background-color: rgb(255, 200, 150);
+}
+#blok48{
+    background-color: rgb(255, 200, 150);
+}
+#blok49{
+    background-color: rgb(255, 200, 150);
+}
+#blok50{
+    background-color: rgb(100, 50, 0);
+}
+#blok51{
+    background-color: rgb(255, 200, 150);
+}
+#blok52{
+    background-color: rgb(255, 200, 150);
+}
+#blok53{
+    background-color: rgb(100, 50, 0);
+}
+
+#blok54{
+    background-color:  grey;
+}
+#blok55{
+    background-color: rgb(100, 50, 0);
+}
+#blok56{
+    background-color: rgb(100, 50, 0);
+}
+#blok57{
+    background-color: rgb(255, 200, 150);
+}
+#blok58{
+    background-color: rgb(255, 200, 150);
+}
+#blok59{
+    background-color: rgb(255, 200, 150);
+}
+#blok60{
+    background-color: rgb(255, 200, 150);
+}
+#blok61{
+    background-color: rgb(100, 50, 0);
+}
+#blok62{
+    background-color: rgb(100, 50, 0);
+}
+#blok63{
+    background-color: rgb(100, 50, 0);
+}
+#blok64{
+    background-color: rgb(100, 50, 0);
+}
+#blok65{
+    background-color: grey;
+}
+#blok66{
+    background-color:  grey;
+}
+#blok67{
+    background-color: grey;
+}
+#blok68{
+    background-color: rgb(255, 200, 150);
+}
+#blok69{
+    background-color: rgb(255, 200, 150);
+}
+#blok70{
+    background-color: rgb(255, 200, 150);
+}
+#blok71{
+    background-color: rgb(255, 200, 150);
+}
+#blok72{
+    background-color: rgb(255, 200, 150);
+}
+#blok73{
+    background-color: rgb(255, 200, 150);
+}
+#blok74{
+    background-color: rgb(255, 200, 150);
+}
+
+#blok75{
+    background-color:  grey;
+}
+#blok76{
+    background-color: grey;
+}
+#blok77{
+    background-color: grey;
+}
+#blok78{
+    background-color: red;
+}
+#blok79{
+    background-color: red;
+}
+#blok80{
+    background-color: blue;
+}
+#blok81{
+    background-color: red;
+}
+#blok82{
+    background-color: red;
+}
+#blok83{
+    background-color: red;
+}
+#blok84{
+    background-color: red;
+}
+
+#blok85{
+    background-color:  grey;
+}
+#blok86{
+    background-color: red;
+}
+#blok87{
+    background-color: red;
+}
+#blok88{
+    background-color: red;
+}
+#blok89{
+    background-color: blue;
+}
+#blok90{
+    background-color: red;
+}
+#blok91{
+    background-color: red;
+}
+#blok92{
+    background-color: blue;
+}
+#blok93{
+    background-color: red;
+}
+#blok94{
+    background-color: red;
+}
+#blok95{
+    background-color: red;
+}
+
+#blok96{
+    background-color: red;
+}
+#blok97{
+    background-color: red;
+}
+#blok98{
+    background-color: red;
+}
+#blok99{
+    background-color: red;
+}
+#blok100{
+    background-color: blue;
+}
+#blok101{
+    background-color: blue;
+}
+#blok102{
+    background-color: blue;
+}
+#blok103{
+    background-color: blue;
+}
+#blok104{
+    background-color: red;
+}
+#blok105{
+    background-color: red;
+}
+#blok106{
+    background-color: red;
+}
+#blok107{
+    background-color: red;
+}
+#blok108{
+    background-color: white;
+}
+#blok109{
+    background-color: white;
+}
+#blok110{
+    background-color: red;
+}
+#blok111{
+    background-color: blue;
+}
+#blok112{
+    background-color: yellow;
+}
+#blok113{
+    background-color: blue;
+}
+#blok114{
+    background-color: blue;
+}
+#blok115{
+    background-color: yellow;
+}
+#blok116{
+    background-color: blue;
+}
+#blok117{
+    background-color: red;
+}
+#blok118{
+    background-color: white;
+}
+#blok119{
+    background-color: white;
+}
+#blok120{
+    background-color: white;
+}
+#blok121{
+    background-color: white;
+}
+#blok122{
+    background-color: white;
+}
+#blok123{
+    background-color: blue;
+}
+#blok124{
+    background-color: blue;
+}
+#blok125{
+    background-color: blue;
+}
+#blok126{
+    background-color: blue;
+}
+#blok127{
+    background-color: blue;
+}
+#blok128{
+    background-color: blue;
+}
+#blok129{
+    background-color: white;
+}
+#blok130{
+    background-color: white;
+}
+#blok131{
+    background-color: white;
+}
+#blok132{
+    background-color: white;
+}
+#blok133{
+    background-color: white;
+}
+#blok134{
+    background-color: blue;
+}
+#blok135{
+    background-color: blue;
+}
+#blok136{
+    background-color: blue;
+}
+#blok137{
+    background-color: blue;
+}
+#blok138{
+    background-color: blue;
+}
+#blok139{
+    background-color: blue;
+}
+#blok140{
+    background-color: blue;
+}
+#blok141{
+    background-color: blue;
+}
+#blok142{
+    background-color: blue;
+}
+#blok143{
+    background-color: white;
+}
+#blok144{
+    background-color: white;
+}
+#blok145{
+    background-color: grey;
+}
+#blok146{
+    background-color: grey;
+}
+#blok147{
+    background-color: blue;
+}
+#blok148{
+    background-color: blue;
+}
+#blok148{
+    background-color: blue;
+}
+#blok149{
+    background-color: blue;
+}
+#blok150{
+    background-color: grey;
+}
+#blok151{
+    background-color: grey;
+}
+#blok152{
+    background-color: blue;
+}
+#blok153{
+    background-color: blue;
+}
+#blok154{
+    background-color: blue;
+}
+#blok155{
+    background-color: grey;
+}
+#blok156{
+    background-color: rgb(100, 50, 0);
+}
+#blok157{
+    background-color: rgb(100, 50, 0);
+}
+#blok158{
+    background-color: rgb(100, 50, 0);
+}
+#blok159{
+    background-color: grey;
+}
+#blok160{
+    background-color: grey;
+}
+#blok161{
+    background-color: grey;
+}
+#blok162{
+    background-color: grey;
+}
+#blok163{
+    background-color: rgb(100, 50, 0);
+}
+#blok164{
+    background-color: rgb(100, 50, 0);
+}
+#blok165{
+    background-color: rgb(100, 50, 0);
+}
+#blok166{
+    background-color: grey;
+}
+#blok167{
+    background-color: rgb(100, 50, 0);
+}
+#blok168{
+    background-color: rgb(100, 50, 0);
+}
+#blok169{
+    background-color: rgb(100, 50, 0);
+}
+#blok170{
+    background-color: rgb(100, 50, 0);
+}
+#blok171{
+    background-color: grey;
+}
+#blok172{
+    background-color: grey;
+}
+#blok173{
+    background-color: grey;
+}
+#blok174{
+    background-color: grey;
+}
+#blok175{
+    background-color: rgb(100, 50, 0);
+}
+#blok176{
+    background-color: rgb(100, 50, 0);
+}
+#blok177{
+    background-color: rgb(100, 50, 0);
+}
+#blok178{
+    background-color: rgb(100, 50, 0);
+}
+#blok179{
+    background-color: rgb(100, 50, 0);
+}
+.inline{
+    display:inline-block;
+}
+#rij, #rij2, #rij3, #rij4, #rij5, #rij6, #rij7, #rij8, #rij9, #rij10, #rij11, #rij12, #rij13, #rij14 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);}
+        40% {
+            transform: translateY(-40px);
+        }
+        60% {
+            transform: translateY(-20px);
+        }
+}
+
+
+@media screen and (max-width: 900px){
+    #rij, #rij2, #rij3, #rij4, #rij5, #rij6, #rij7, #rij8, #rij9, #rij10, #rij11, #rij12, #rij13, #rij14{
+        animation-name: bounce;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+
+    }
+}
+
+@media screen and (max-width: 600px){
+    #rij, #rij2, #rij3, #rij4, #rij5, #rij6, #rij7, #rij8, #rij9, #rij10, #rij11, #rij12, #rij13, #rij14{
+        animation-name: disappear;
+        animation-timing-function: ease-in-out;
+        animation-duration: 2s;
+    }
+
+}
+
+@keyframes disappear {
+    0% {transform: none;}
+    100%{transform:scale(0,5);}
+}
+

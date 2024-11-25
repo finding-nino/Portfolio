@@ -1,0 +1,142 @@
+body {
+    background-color: grey;
+
+}
+
+.bulb {
+    cursor: pointer;
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+}
+
+.bulb input {
+    display: none;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#mainbulb1{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(180, 185, 241, 0.8);
+    border-radius: 50%;
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+    margin: 0;
+    position: absolute;
+
+
+}
+
+#mainbulb2{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(208, 213, 244, 0.8);
+    border-radius: 50%;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+    margin: 0;
+}
+
+
+
+#innerbulb1{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border: 25px solid #b4b9f1;
+    border-radius: 50%;
+    margin: auto;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+}
+
+#innerbulb2{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border: 25px solid rgba(208, 213, 244, 0.8);
+    border-radius: 50%;
+    margin: auto;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+    
+}
+
+#bulbholder1{
+    width: 10px;
+    height: 85px;
+    background-color: #b4b9f1;
+    position: absolute;
+    top:18.5%;
+    margin: auto;
+    right: 50%;
+}
+
+#bulbholder2{
+    width: 10px;
+    height: 85px;
+    background-color: rgba(208, 213, 244, 0.8);
+    position: absolute;
+    top:18.5%;
+    margin: auto;
+    left: 50%;
+}
+
+#bulbfoot1{
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    background-color: #08475e;
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(#08475e 50%, #05303d 50%);
+    top:27%;
+}
+
+#bulbfoot2{
+    position: absolute;
+    content: "";
+    height: 50px;
+    width: 50px;
+    background-color: #05303d;
+    border-radius:50%;
+    top:35%;
+}
+
+.bulb input:checked ~ #mainbulb1{
+    background-color: #ff8e00;
+}
+
+.bulb input:checked ~ #mainbulb2{
+    background-color: #ffd845;
+}
+
+.bulb input:checked ~ #innerbulb1{
+    border-color:  #ffa333;
+}
+
+.bulb input:checked ~ #innerbulb2{
+    border-color:  #ffde66;
+}
+
+.bulb input:checked ~ #bulbholder1{
+    background-color:#ffa333;
+}
+
+.bulb input:checked ~ #bulbholder2{
+    background-color: #ffde66;
+}
+

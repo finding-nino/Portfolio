@@ -1,0 +1,4 @@
+Uitzoomen is eventueel vereist om het alles te kunnen zien (sorry.)
+Helaas is het me niet goed gelukt om de z-index aan te passen van de wolken zodat ze voor sommige en achter andere bergen verschijnen.
+
+Ik heb alles achteraf gezien misschien iets té groot gemaakt.

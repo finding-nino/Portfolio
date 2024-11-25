@@ -1,0 +1,238 @@
+#cirkel1 {
+    width: 1250px;
+    height: 1250px;
+    background-color: yellow;
+    border-radius: 50%;
+    position:relative;
+    top: 50px;
+    right: -50px;
+    margin: auto;
+    /*Margin werkt alleen als je een hoogte en een breedte hebt aangegeven*/
+
+}
+
+#cirkel2 {
+    width: 150px;
+    height: 150px;
+    background-color:black;
+    border-radius: 75px;
+    position:relative;
+    top: -900px;
+    right: 200px;
+    margin: 0 auto;
+}
+
+#cirkel3 {
+    width: 150px;
+    height: 150px;
+    background-color:black;
+    border-radius: 75px;
+    position:relative;
+    top: -1050px;
+    right: -250px;
+    margin: 0 auto;
+
+}
+/*De mond*/
+#vierkant1 {
+    width: 650px;
+    height: 350px;
+    background-color: black;
+    position: relative;
+    top: -900px;
+    right: -50px;
+    margin: 0 auto;
+    border: 15px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 25px;
+
+
+}
+
+#tandvlees1 {
+    width: 650px;
+    height: 20px;
+    background-color: darkred;
+    position:absolute;
+    top: 670px;
+    left: 685px;
+    z-index: 1;
+    margin:0 auto;
+}
+
+#tandvlees2 {
+    width: 650px;
+    height: 20px;
+    background-color: darkred;
+    position:absolute;
+    top: 1005px;
+    left: 685px;
+    z-index: 1;
+
+}
+/*Resterende vierkanten zijn de tanden*/
+/*Rechtsboven*/
+#vierkant2 {
+    width: 90px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: -1265px;
+    left: 330px;
+    margin: 0 auto;
+    border-radius: 20px;
+    z-index: 2;
+
+
+
+}
+/*Linksbeneden*/
+#vierkant3 {
+    width: 90px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: -1215px;
+    left: -230px;
+    margin: 0 auto;
+    border-radius: 20px;
+    z-index: 2;
+
+
+}
+/*Linksboven*/
+#vierkant4 {
+    width: 90px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: -1565px;
+    left: -230px;
+    margin: 0 auto;
+    border-radius: 20px;   
+    z-index: 2; 
+    
+
+}
+/*5 t/m 9 zijn de resterende tanden onder*/
+#vierkant5 {
+    width: 105px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: -1515px;
+    left: -125px;
+    margin: 0 auto;
+    border-radius: 20px;
+    z-index: 2;    
+    
+
+}
+
+#vierkant6 {
+    width: 110px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: -1665px;
+    left: -5px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+
+}
+
+#vierkant7 {
+    width: 110px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: -1815px;
+    left: 110px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+
+
+}
+
+#vierkant8 {
+    width: 105px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: -1965px;
+    left: 220px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+
+}
+
+#vierkant9 {
+    width: 90px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: -2115px;
+    left: 330px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+
+
+}
+/*'middelste' tanden boven*/
+#vierkant10 {
+    width: 110px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: -2465px;
+    left: 215px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+
+}
+
+#vierkant11 {
+    width: 110px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: -2615px;
+    left: 100px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+
+}
+
+#vierkant12 {
+    width: 105px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: -2765px;
+    left: -10px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+
+}
+
+#vierkant13{
+    width: 105px;
+    height: 150px;
+    background-color:white;
+    position: relative;
+    top: -2915px;
+    left: -125px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+}
+
+/*De volgorde is niet echt kloppend, ik denk dat ahet ook te laat was om de div's the nesten, dus heb ik 'Inspect' gebruikt vanuit de browser om erachter te komen welke tand welk vierkant is*/

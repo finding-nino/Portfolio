@@ -1,0 +1,306 @@
+#cirkel1 {
+    width: 1250px;
+    height: 1250px;
+    background-color: yellow;
+    border-radius: 50%;
+    position:relative;
+    top: 50px;
+    right: -50px;
+    margin: 0 auto;
+    /*Margin werkt alleen als je een hoogte en een breedte hebt aangegeven*/
+
+}
+
+#cirkel2 {
+    width: 150px;
+    height: 150px;
+    background-color:black;
+    border-radius: 75px;
+    position:relative;
+    top: -900px;
+    right: 200px;
+    margin: 0 auto;
+}
+
+#cirkel3 {
+    width: 150px;
+    height: 150px;
+    background-color:black;
+    border-radius: 75px;
+    position:relative;
+    top: -1050px;
+    right: -250px;
+    margin: 0 auto;
+
+}
+
+
+#vierkant1 {
+    width: 650px;
+    height: 450px;
+    background-color: black;
+    position: relative;
+    top: -900px;
+    right: -50px;
+    margin: 0 auto;
+    border: 15px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 25px;
+    
+
+
+
+}
+/*Height van de mond = 450 delen door 2 (2 rijen tanden) = 225 delen door 2 (boven&onder) = 112,5 dan delen door 4 = ~28 pixels per stage om het midden te bereiken met boven&onder */
+/*Een bezoekje aan de tandarts is misschien wel nodig*/
+
+
+
+#tandvlees1 {
+    width: 650px;
+    height: 20px;
+    background-color: darkred;
+    position:absolute;
+    top: 670px;
+    left: 685px;
+    z-index: 1;
+    margin:0 auto;
+}
+
+#tandvlees2 {
+    width: 650px;
+    height: 20px;
+    background-color: darkred;
+    position:absolute;
+    top: 1105px;
+    left: 685px;
+    z-index: 1;
+
+}
+
+
+
+#boven1 {
+    width: 90px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 670px;
+    left: 685px;
+    margin: 0 auto;
+    border-radius: 20px;
+    z-index: 2;
+    animation-name: kauwen;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#boven2 {
+    width: 90px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 670px;
+    left: 780px;
+    margin: 0 auto;
+    border-radius: 20px;   
+    z-index: 2; 
+    animation-name: kauwen;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+    
+}
+
+#boven3 {
+    width: 110px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 670px;
+    left: 880px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+    animation-name: kauwen;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+#boven4 {
+    width: 110px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 670px;;
+    left: 1000px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+    animation-name: kauwen;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+
+}
+
+#boven5 {
+    width: 105px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 670px;
+    left: 1115px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+    animation-name: kauwen;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#boven6{
+    width: 105px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 670px;
+    left: 1226px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+    animation-name: kauwen;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes kauwen2 {
+    0% {top: 975px;}
+    25% {top:947px;}
+    50% {top:919px;}
+    75%{top:891px;}
+    100%{top:975px}
+
+}
+
+@keyframes kauwen {
+    0% {top: 670px;}
+    25% {top:698px;}
+    50% {top:726px;}
+    75%{top:754px;}
+    100%{top:670px;}
+}
+
+
+#onder1 {
+    width: 90px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 975px;
+    left: 1240px;
+    margin: 0 auto;
+    border-radius: 20px;
+    z-index: 2;
+    animation-name: kauwen2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+
+}
+
+#onder2 {
+    width: 105px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 975px;
+    left: 1125px;
+    margin: 0 auto;
+    border-radius: 20px;
+    z-index: 2;
+    animation-name: kauwen2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+
+}
+
+#onder3 {
+    width: 110px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 975px;
+    left: 1010px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+    animation-name: kauwen2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+#onder4 {
+    width: 110px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 975px;
+    left: 890px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+    animation-name: kauwen2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+
+}
+
+#onder5 {
+    width: 105px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 975px;
+    left: 783px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+    animation-name: kauwen2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+#onder6 {
+    width: 90px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 975px;
+    left: 685px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    z-index: 2;
+    animation-name: kauwen2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+
+}

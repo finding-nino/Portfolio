@@ -1,0 +1,226 @@
+body {
+    background: linear-gradient(45deg, #6600cc, #3333cc);
+    background-size: 200% 200%;
+    animation: gradientShift 3s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: 400% 400%;
+    
+
+}
+
+.container{
+    width:500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:  auto;
+    overflow: visible;
+    
+}
+
+.ufo{
+    width: 200px;
+    height: 450px;
+    background-image: linear-gradient(to bottom,#8080ff  60%, yellow 33% 70%, orange 66%);
+    border-radius: 90px;
+    margin: 0 auto;
+    animation: float;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    overflow: visible;
+
+
+}
+/**Landing 'poten' van de ufo**/
+.ufo::after{
+    height: 100px;
+    width: 120px;
+    background-color: transparent;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: orange;
+    border-width: 10px;
+    clip-path: inset(0 0 50% 0);
+    margin: auto;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    top:100%;
+
+
+}
+
+
+.alien{
+    position: relative;
+    margin: 0 auto;
+    background-color: green;
+    width: 150px;
+    height: 280px;
+    border-radius: 90px;
+    clip-path: inset(0 0 25% 0);
+    margin: auto;
+    margin-top: 60px;
+    overflow: visible;
+}
+
+/**Oor van de alien rechts**/
+
+.alien::before{
+    height: 30px;
+    width: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: green;
+    border-width: 10px;
+    clip-path: inset(0 0 50% 0);
+    margin: auto;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+    top:-80%;
+    transform: rotate(-60deg);
+}
+
+
+/**Oor van de alien links**/
+
+.alien::after{
+    height: 30px;
+    width: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: green;
+    border-width: 10px;
+    clip-path: inset(0 0 50% 0);
+    margin: auto;
+    content: '';
+    position: absolute;
+    transform: rotate(40deg);
+    bottom: 0;
+    right: 75%;
+    top:-80%;
+    
+}
+
+
+
+.mouth{
+    position: absolute;
+    width: 55px;
+    height: 40px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: grey;
+    bottom:30%;
+    left:33%;
+    overflow: visible;
+    
+}
+
+/**Oor bolletje rechts (niet echt passend bij de mouth, maar dit was het enige
+pseudo-element dat ik over had)**/
+
+.mouth::after{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    content: '';
+    margin: auto;
+    top: -380%;
+    left: 145%;
+    
+
+}
+
+/**Oor bolletje links (niet echt passend bij de mouth, maar dit was het enige
+pseudo-element dat ik over had)**/
+
+.mouth::before{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    content: '';
+    margin: auto;
+    top: -385%;
+    left: -90%;
+
+}
+
+/**Oogbal van de alien**/
+
+.details{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    content: '';
+    margin: auto;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+    
+}
+
+/**Pupil van de alien**/
+
+.details::before{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: black;
+    bottom:20%;
+    left:20%;
+    content: '';
+    background-color: transparent;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    clip-path:inset(0 0 50% 0);
+
+
+}
+
+
+
+
+@keyframes float {
+    0% {transform:translateY(0%);} 
+    50%{transform: translateY(10%);}
+    100%{transform:translateY(0%);}
+}
+
+
+
+
+@keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+  }
